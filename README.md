@@ -13,6 +13,9 @@ This project aims to devlop understanding of Gazeb/Rviz Simulation of a
 
     catkin_make
 
+    cd src/
+
+
 If everything runs without any error, then run following command:
 
     rostopic list
