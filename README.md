@@ -13,7 +13,11 @@ This project aims to devlop understanding of Gazeb/Rviz Simulation of a
 
     catkin_make
 
-    cd src/
+    cd
+
+    roslaunch articulated_robot_simulation robot_gazebo.launch
+
+    roslaunch articulated_robot_simulation robot_control.launch
 
 
 If everything runs without any error, then run following command:
