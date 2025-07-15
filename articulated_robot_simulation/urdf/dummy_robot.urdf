@@ -1,0 +1,20 @@
+<robot name="robot_name">
+
+    <!-- Define all the joints and links here -->
+
+    <transmission name="transmission_name">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="joint_name">
+            <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="actuator_name">
+            <mechanicalReduction>1.0</mechanicalReduction>
+            <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        </actuator>
+    </transmission>
+    <!-- Repeat transmission for each of the joints -->
+    <gazebo>
+        
+    </gazebo>
+
+</robot>
